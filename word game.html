@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word and Number Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Word and Number Guessing Game</h1>
+        
+        <div class="guess-word">
+            <h2>Guess the Word</h2>
+            <input type="text" id="word-input" placeholder="Enter your guess">
+            <button onclick="guessWord()">Guess Word</button>
+            <p id="word-result"></p>
+        </div>
+
+        <div class="guess-number">
+            <h2>Guess the Number (1-100)</h2>
+            <input type="number" id="number-input" placeholder="Enter your guess">
+            <button onclick="guessNumber()">Guess Number</button>
+            <p id="number-result"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
